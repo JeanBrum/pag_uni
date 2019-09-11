@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="titulo">
+        <h2>Univates - Matrícula</h2>
+    </div>
+
+        <div class="form">
+            <div id="radio">
+                <input type="radio" name="sn" value="S" class="rd">Matrícula Nova
+                <input type="radio" name="sn" value="N" class="rd">Rematrícula
+            </div>
+            <div id="input-cod">
+                <p>Código: <input type="number" name="cod" id="cod"></p>
+            </div>
+            <div id="input-name">
+                <p>Nome do Aluno: <input type="text" name="nome" id="nome"></p>
+            </div>
+            <div id="select-curso">
+                <p>Curso: 
+                    <select name="lista" id="curso">
+                        <option value="" selected>---</option>
+                        <option value="1">Um</option>
+                        <option value="2">Dois</option>
+                        <option value="3">Três</option>
+                    </select>
+                </p>              
+            </div>
+            <div id="check">
+                <p>
+                <div id="pt1">
+                    <p><input type="checkbox" name="op1" value="1" />Programação Web I</p>
+                    <p><input type="checkbox" name="op2" value="2" />Sistemas Operacionais</p>
+                    <p><input type="checkbox" name="op3" value="3" />Banco de Dados</p>
+                    <p><input type="checkbox" name="op4" value="4" />Redes I</p>
+                </div>
+                <div id="pt2">
+                    <p><input type="checkbox" name="op5" value="5" />Programação Web II</p>
+                    <p><input type="checkbox" name="op6" value="6" />Sistemas Operacionais II</p>     
+                    <p><input type="checkbox" name="op7" value="7" />Banco de Dados II</p>
+                    <p><input type="checkbox" name="op8" value="8" />Redes II</p>
+                </div>                  
+                </p>              
+            </div>
+            <div id="email-aluno">
+                <p>E-mail do Aluno: <input type="email" name="email" id="email"></p>
+            </div>
+            <div id="obs">
+                <p id="obss">
+                    Observações: <textarea name="texto" cols="56" rows="5" id="obsss"></textarea>
+                </p>
+            </div>
+            <div id="button">
+                <button type="submit" value="Enviar" id="but">Enviar</button>
+            </div>
+        </div>
+
+</body>
+</html>

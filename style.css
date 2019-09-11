@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(175, 175, 175); 
+}
+
+#titulo {
+    text-align: center;
+}
+
+.form {
+    display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+#radio {
+    margin-left: 33%;
+    background-color: rgb(175, 175, 175); 
+}
+
+.form input[type=text],[type=number],[type=email] {
+    padding: 3px;
+    background-color: rgb(175, 175, 175);
+    border: solid black 1px;
+}
+
+.form select {
+    padding: 3px;
+    background-color: rgb(175, 175, 175);
+    border: solid black 1px;
+}
+
+.form #input-cod {
+    margin-left: 25%;
+}
+
+.form #input-name {
+    margin-left: 16.5%;
+}
+
+.form #select-curso {
+    margin-left: 26.5%;
+}
+
+#curso {
+    width: 70%;
+}
+
+#pt1 {
+    display: inline-block;
+    margin-left: 33%;   
+}
+#pt2 {
+    display: inline-block;
+}
+
+.form #email-aluno {
+    margin-left: 15.5%;
+}
+
+#email {
+    width: 60%;
+}
+
+#obs2 {
+    vertical-align: middle;
+}
+
+#obs {
+    margin-left: 19.3%;
+}
+
+#but {
+    width: 12%;
+    padding: 7px;
+    border: solid black 1px;
+    margin-left: 33.5%;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(107, 107, 107);
+    font-size: 16px;
+}
+
+#obsss {
+    background-color: rgb(175, 175, 175);
+    border: solid black 1px;
+}
+
